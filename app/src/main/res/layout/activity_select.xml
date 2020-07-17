@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".select">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightred"
+    android:orientation="vertical">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="180sp"
+    android:layout_height="180sp"
+    android:src="@mipmap/logo_round"
+    android:layout_gravity="center"
+    android:layout_marginTop="20sp">
+</de.hdodenhof.circleimageview.CircleImageView>
+    <Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:text="I am user/customer"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:background="@color/colorPrimary"
+        android:text="I am Deliverer/Worker"
+        android:textSize="20dp" />
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

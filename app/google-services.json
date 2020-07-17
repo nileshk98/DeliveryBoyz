@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "660043654517",
+    "firebase_url": "https://delivery-boyz-321b7.firebaseio.com",
+    "project_id": "delivery-boyz-321b7",
+    "storage_bucket": "delivery-boyz-321b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660043654517:android:fb84186efd0678ab",
+        "android_client_info": {
+          "package_name": "com.doorstep.db.deliveryboyz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660043654517-9qh4ca9ng62vq3afctc4itqgjrs8lfn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doorstep.db.deliveryboyz",
+            "certificate_hash": "a9733a23fb62c201fc73ecb516699cca20a09a9b"
+          }
+        },
+        {
+          "client_id": "660043654517-i8qp6v6h89ie30fdupadm8upr05qed42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChvn9mlQILuUcHdWrDb3BS0__c_XgRR-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660043654517-i8qp6v6h89ie30fdupadm8upr05qed42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

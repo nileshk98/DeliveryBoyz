@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c">#e15868</color>
+    <color name="colorPrimary">#44b6a0</color>
+    <color name="cd">#da243f</color>
+    <color name="colorPrimaryDark">#3a9f8c</color>
+    <color name="ca">#FF4081</color>
+    <color name="colorAccent">#44b6a0</color>
+    <color name="l">#eaced1</color>
+    <color name="lightred">#E1F9F8</color>
+    <color name="blue">#190996</color>
+    <color name="purple">#810C79</color>
+    <color name="transparent">#80FFFFFF</color>
+    <color name="baseReleaseColor">#e15868</color>
+    <color name="basePressColor">#eaced1</color>
+    <color name="ballReleaseColor">#FF7F7F</color>
+    <color name="white">#FFFFFF</color>
+</resources>

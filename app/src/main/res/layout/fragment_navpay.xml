@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@color/lightred">
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_width="100sp"
+           android:layout_height="100sp"
+           android:layout_gravity="center"
+           android:src="@mipmap/logo_round"
+           android:layout_marginTop="20sp"
+           android:layout_marginBottom="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lightred">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance : "
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginBottom="100sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:id="@+id/balance"
+            android:text="₹0.0"/>
+    </LinearLayout>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Amount"
+           android:id="@+id/amount"
+           android:inputType="number"
+           android:textSize="20sp"
+           android:visibility="gone"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Add Money"
+           android:textSize="15sp"
+           android:layout_marginTop="10sp"
+           android:background="@color/colorPrimary"
+           android:id="@+id/ok"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
